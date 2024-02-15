@@ -37,4 +37,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-.nx/
+.nx/cache/d/daemon.log
