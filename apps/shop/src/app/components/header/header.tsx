@@ -1,26 +1,33 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-useless-fragment */
 import React, { Component } from 'react';
-
 import styles from './header.module.scss';
+import LoginService from '../../services/login.service';
+import { useNavigate } from 'react-router-dom';
+import { clearToken, onLogout, useAuthDispatch } from '@shop-portal/libs';
 
 /* eslint-disable-next-line */
-export interface HeaderProps {}
+export interface HeaderProps  {
+   history?:any
+}
 
-export class Header extends Component<HeaderProps> {
-   // constructor(private document : Document){
-   //    super(document);
-   // }
-   sidebarToggle()
+export const Header = () => {
+   const dispatch=useAuthDispatch()
+   const navigate = useNavigate()
+  const sidebarToggle = () =>
    {
      //toggle sidebar function
      document.body.classList.toggle('toggle-sidebar');
    }
-  override render() {
+   const logout = ()=>{
+      clearToken()
+      dispatch(onLogout())
+      navigate('/')
+   }
     return (
       <React.Fragment>
         <header id="header" className='header fixed-top d-flex align-items-center'>
-    <div className="d-flex align-items-center justify-content-between"> <a className="logo d-flex align-items-center"> <img src="assets/img/logo.png" alt=""/> <span className="d-none d-lg-block">Admin</span> </a> <i onClick={this.sidebarToggle}  className="bi bi-list toggle-sidebar-btn"></i>
+    <div className="d-flex align-items-center justify-content-between"> <a className="logo d-flex align-items-center"> <img src="assets/img/logo.png" alt=""/> <span className="d-none d-lg-block">Admin</span> </a> <i onClick={sidebarToggle}  className="bi bi-list toggle-sidebar-btn"></i>
     </div>
     <div className="search-bar">
        <form className="search-form d-flex align-items-center" method="POST" action="#"> <input type="text" name="query" placeholder="Search" title="Enter search keyword"/> <button type="submit" title="Search"><i className="bi bi-search"></i></button></form>
@@ -153,7 +160,7 @@ export class Header extends Component<HeaderProps> {
                 <li>
                    <hr className="dropdown-divider"/>
                 </li>
-                <li> <a className="dropdown-item d-flex align-items-center" > <i className="bi bi-box-arrow-right"></i> <span>Sign Out</span> </a></li>
+                <li> <a className="dropdown-item d-flex align-items-center" onClick={logout}> <i className="bi bi-box-arrow-right"></i> <span>Sign Out</span> </a></li>
              </ul>
           </li>
        </ul>
@@ -162,6 +169,5 @@ export class Header extends Component<HeaderProps> {
       </React.Fragment>
     );
   }
-}
 
 export default Header;

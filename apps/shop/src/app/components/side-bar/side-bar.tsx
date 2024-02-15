@@ -10,7 +10,7 @@ export class Sidebar extends Component<SidebarProps> {
     return (
       <aside id="sidebar" className="sidebar">
     <ul className="sidebar-nav" id="sidebar-nav">
-       <li className="nav-item"> <Link className="nav-link " to="/"> <i className="bi bi-grid"></i> <span>Dashboard</span> </Link></li>
+       <li className="nav-item"> <Link className="nav-link " to=""> <i className="bi bi-grid"></i> <span>Dashboard</span> </Link></li>
        {/* <li className="nav-item"> <NavLink to="station" className="nav-link collapsed">Station</NavLink></li> */}
        <li className="nav-item"> <Link to={`station`} className="nav-link collapsed"> <i className="bi bi-card-list"></i> <span>Station</span> </Link></li>
        {/* <li className="nav-item">

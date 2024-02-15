@@ -1,0 +1,26 @@
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Unable to load tsconfig-paths, workspace libraries may be inaccessible.[39m[22m
+[1m[33m  - To fix this, install tsconfig-paths with npm/yarn/pnpm[39m[22m
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
+<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4400/[39m, [36mhttp://127.0.0.1:4400/[39m[39m[22m
+<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4400/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.67 MiB (5.5 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.22 MiB [1m[32mmain.css[39m[22m 403 bytes [1m[32mmain.js[39m[22m 157 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 113 KiB (javascript) 363 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3.08 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6381d4238453f0ee)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.67 MiB (5.51 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.6381d4238453f0ee.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.6381d4238453f0ee.hot-update.js[39m[22m (main) 113 KiB (javascript) 363 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.6381d4238453f0ee.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3.08 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3dfc43e3a6f4be50)
+[32mNo errors found.[39m

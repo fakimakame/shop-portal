@@ -1,0 +1,16 @@
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Unable to load tsconfig-paths, workspace libraries may be inaccessible.[39m[22m
+[1m[33m  - To fix this, install tsconfig-paths with npm/yarn/pnpm[39m[22m
+[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+<i> [1m[32m[webpack-dev-server] SSL certificate: /Users/faki/Documents/shop_project/shop-portal/node_modules/.cache/webpack-dev-server/server.pem[39m[22m
+Error: listen EADDRINUSE: address already in use 127.0.0.1:4300
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1463:16)[39m
+[90m    at listenInCluster (node:net:1511:12)[39m
+[90m    at GetAddrInfoReqWrap.doListen (node:net:1660:7)[39m
+[90m    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:8)[39m {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-48[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m4300[39m
+}

@@ -1,0 +1,1142 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.10.0",
+  "deps": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.9",
+    "@reduxjs/toolkit": "^2.1.0",
+    "@swc/helpers": "~0.5.2",
+    "@types/js-cookie": "^3.0.6",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "formik": "^2.4.5",
+    "joi-browser": "^13.4.0",
+    "js-cookie": "^3.0.5",
+    "postcss": "^8.4.32",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.20.1",
+    "react-toastify": "^9.1.3",
+    "rxjs": "^7.8.1",
+    "tailwindcss": "^3.3.6",
+    "tslib": "^2.3.0",
+    "yup": "^1.3.2",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@nx/cypress": "16.10.0",
+    "@nx/eslint-plugin": "16.10.0",
+    "@nx/jest": "16.10.0",
+    "@nx/js": "16.10.0",
+    "@nx/linter": "16.10.0",
+    "@nx/react": "16.10.0",
+    "@nx/webpack": "16.10.0",
+    "@nx/workspace": "16.10.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^8.0.1",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.9",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "babel-jest": "^29.4.1",
+    "cypress": "^13.0.0",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.13.4",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "json-loader": "^0.5.7",
+    "nx": "16.10.0",
+    "nx-cloud": "latest",
+    "prettier": "^2.6.2",
+    "react-refresh": "^0.10.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3",
+    "url-loader": "^4.1.1"
+  },
+  "pathMappings": {
+    "@shop-portal/libs": [
+      "libs/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11608181557323256120"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "9743184822876620137"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "3849435341763127119"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "5663662271922222411"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "15768757530301249699"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/project-graph.html",
+        "hash": "17036869540637447991"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/3rdpartylicenses.txt",
+        "hash": "5667550289807473445"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/environment.js",
+        "hash": "6083053142661510428"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/main.js",
+        "hash": "13551439496520482047"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/polyfills.js",
+        "hash": "5617236864114375205"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/runtime.js",
+        "hash": "9652903316845995179"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.css",
+        "hash": "2125456314194136822"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.js",
+        "hash": "13596360365094399219"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "11824328872675887782"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "9215125472722097605"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "4027886677793432675"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/10045027200665180481",
+        "hash": "289714926677477200"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/10518270436775900803",
+        "hash": "694741245920552137"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/11071565591078656654",
+        "hash": "1142516563878271369"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/11331482703411043800",
+        "hash": "8240779806787612135"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/11670804413966425502",
+        "hash": "14110213469658433837"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/11803004665057518917",
+        "hash": "5964777065785628041"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/11957537441271903692",
+        "hash": "3534301971819932910"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/12741420641152771499",
+        "hash": "17357086939937498363"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/1314941588258520771",
+        "hash": "7579590784090702706"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13281541517820904184",
+        "hash": "18058211430397512994"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13443346324408770617",
+        "hash": "5023935777164470532"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13478811763492476907",
+        "hash": "9892194916674042157"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13600747334008742506",
+        "hash": "11847309100481216001"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14005163297806037935",
+        "hash": "1875488524195696566"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14050025790243483576",
+        "hash": "5930872187831737971"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14167638280117872216",
+        "hash": "16737397403492206162"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14335703393892434123",
+        "hash": "10637413903515761291"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/1434645648207315862",
+        "hash": "2727253570076139242"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/14934196043470522984",
+        "hash": "12092597971716464183"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/15051527076833208546",
+        "hash": "387141212198204462"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/15653473055519749608",
+        "hash": "16292856058833759059"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/15796979837872749103",
+        "hash": "6030149222885351375"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/15939582686526222141",
+        "hash": "15504627758720723698"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16261089780930826222",
+        "hash": "8017156042629200501"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17204415789967546712",
+        "hash": "2341348557106946615"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/1732921188914176415",
+        "hash": "2122317374639117472"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17408928636079208228",
+        "hash": "15159323944276993376"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17516729050326469282",
+        "hash": "6072793282520173997"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/18445939992416101600",
+        "hash": "13922863260659699902"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/205797971958468825",
+        "hash": "14242571475336956695"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2108892321050690222",
+        "hash": "12886778440543492104"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2904722324586088293",
+        "hash": "5494841072515753856"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/3399617481950669730",
+        "hash": "5708009579033656483"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/3634063789984570419",
+        "hash": "18322728975369797698"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/3653354749463307389",
+        "hash": "9616545022717942832"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4215933458585657993",
+        "hash": "18437453039085627961"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4685332016999965042",
+        "hash": "12274904811642501430"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4923506201866750624",
+        "hash": "2763813402970430585"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5035959541347503981",
+        "hash": "8543380267082587933"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5137392758860964812",
+        "hash": "9212986073294050346"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5413172510033846155",
+        "hash": "11843272416879544335"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5523283945463951026",
+        "hash": "5964777065785628041"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5979912604815348617",
+        "hash": "8243233043731934319"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6762722435546086866",
+        "hash": "3427917831028833107"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/7075000566835324956",
+        "hash": "5964777065785628041"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/7512460238565811302",
+        "hash": "131976082097561069"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8394716313971622467",
+        "hash": "6769179682504592570"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8552058489971962157",
+        "hash": "801379601176910687"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/872540111732711033",
+        "hash": "5654867743747104827"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8849593395055184308",
+        "hash": "7518422264830511280"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9280051612578257346",
+        "hash": "12103073473952320399"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9587412980747623920",
+        "hash": "6216356966628281680"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9591544068957861481",
+        "hash": "9625488121097957775"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9728609613996992158",
+        "hash": "15923140558453331898"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9827918307562825041",
+        "hash": "18275681533086594330"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9913556510615399005",
+        "hash": "9415870239062017829"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "README.md",
+        "hash": "7946527920475736476"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10079560923522955785"
+      },
+      {
+        "file": "package.json",
+        "hash": "772945513877481795"
+      },
+      {
+        "file": "proxy-config.json",
+        "hash": "9049585152999333021"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "211861118404194154"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4662497280579015833"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "1108622109705498360"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16706091835687200250",
+        "hash": "3244421341483603138"
+      }
+    ],
+    "projectFileMap": {
+      "shop": [
+        {
+          "file": "apps/shop/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "apps/shop/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/shop/jest.config.ts",
+          "hash": "8294224025769952064"
+        },
+        {
+          "file": "apps/shop/project.json",
+          "hash": "8474162195928439899"
+        },
+        {
+          "file": "apps/shop/setupProxy.ts",
+          "hash": "7283310195093926753",
+          "deps": [
+            "npm:http-proxy-middleware"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/shop/src/app/app.spec.tsx",
+          "hash": "9635127873132834163",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/app.tsx",
+          "hash": "181342574158908026",
+          "deps": [
+            "npm:react-router-dom",
+            "libs"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/dashboard/dashboard.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/components/dashboard/dashboard.spec.tsx",
+          "hash": "4142469231320892276",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/dashboard/dashboard.tsx",
+          "hash": "466830003123707683",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/footer/footer.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/components/footer/footer.spec.tsx",
+          "hash": "10056743603273854719",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/footer/footer.tsx",
+          "hash": "3130588347346995981"
+        },
+        {
+          "file": "apps/shop/src/app/components/header/header.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/components/header/header.spec.tsx",
+          "hash": "1572678573011016875",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/header/header.tsx",
+          "hash": "166854699648643130",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "libs"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/side-bar/side-bar.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/components/side-bar/side-bar.spec.tsx",
+          "hash": "8054516702011317890",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/components/side-bar/side-bar.tsx",
+          "hash": "3467020145044191249",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/login/pages/login/login.module.scss",
+          "hash": "8997952570524310529"
+        },
+        {
+          "file": "apps/shop/src/app/modules/login/pages/login/login.spec.tsx",
+          "hash": "2304635682265206053",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/login/pages/login/login.tsx",
+          "hash": "910902312756344019",
+          "deps": [
+            "libs",
+            "npm:formik",
+            "npm:react",
+            "npm:yup",
+            "npm:react-toastify",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/add-station/add-station.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/add-station/add-station.spec.tsx",
+          "hash": "7813918539219206176",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/add-station/add-station.tsx",
+          "hash": "9708665393821473684",
+          "deps": [
+            "libs",
+            "npm:yup",
+            "npm:formik"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/view-station/view-station.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/view-station/view-station.spec.tsx",
+          "hash": "8616617895920170527",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/components/view-station/view-station.tsx",
+          "hash": "16951499974853587508",
+          "deps": [
+            "npm:react",
+            "libs"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/pages/station/station.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/pages/station/station.spec.tsx",
+          "hash": "14622675427965002943",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/modules/station/pages/station/station.tsx",
+          "hash": "12161922079572551737"
+        },
+        {
+          "file": "apps/shop/src/app/nx-welcome.tsx",
+          "hash": "4389251527819925043"
+        },
+        {
+          "file": "apps/shop/src/app/pages/layout/layout.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/shop/src/app/pages/layout/layout.spec.tsx",
+          "hash": "6667673415676228487",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/pages/layout/layout.tsx",
+          "hash": "1689739992883251471",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:axios",
+            "libs"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/services/https.service.ts",
+          "hash": "5697671704755876788",
+          "deps": [
+            "libs",
+            "npm:axios",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/services/login.service.ts",
+          "hash": "17591938903374628128",
+          "deps": [
+            "libs",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/shop/src/app/services/user.service.ts",
+          "hash": "13677040517030420582"
+        },
+        {
+          "file": "apps/shop/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/shop/src/assets/css/bootstrap-icons.css",
+          "hash": "5880334319328062951"
+        },
+        {
+          "file": "apps/shop/src/assets/css/bootstrap.min.css",
+          "hash": "6717005599302015236"
+        },
+        {
+          "file": "apps/shop/src/assets/css/boxicons.min.css",
+          "hash": "13826340659205389191"
+        },
+        {
+          "file": "apps/shop/src/assets/css/quill.bubble.css",
+          "hash": "7909354135713722083"
+        },
+        {
+          "file": "apps/shop/src/assets/css/quill.snow.css",
+          "hash": "2134223033478028490"
+        },
+        {
+          "file": "apps/shop/src/assets/css/remixicon.css",
+          "hash": "9072279501842658080"
+        },
+        {
+          "file": "apps/shop/src/assets/css/simple-datatables.css",
+          "hash": "14173023934281477062"
+        },
+        {
+          "file": "apps/shop/src/assets/css/style.css",
+          "hash": "18329060357584899879"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/bootstrap-icons.woff",
+          "hash": "12276824848218308548"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/bootstrap-icons.woff2",
+          "hash": "14242258964900270682"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/boxicons.ttf",
+          "hash": "11726521472735935466"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/boxicons.woff",
+          "hash": "5428246945290955615"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/boxicons.woff2",
+          "hash": "9392459553776213266"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/remixicon.eot",
+          "hash": "10616075099802866347"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/remixicon.svg",
+          "hash": "11557842283189010715"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/remixicon.ttf",
+          "hash": "18319659705374725933"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/remixicon.woff",
+          "hash": "3593132951608505249"
+        },
+        {
+          "file": "apps/shop/src/assets/fonts/remixicon.woff2",
+          "hash": "3066307984478082554"
+        },
+        {
+          "file": "apps/shop/src/assets/img/apple-touch-icon.png",
+          "hash": "12761209039076113166"
+        },
+        {
+          "file": "apps/shop/src/assets/img/card.jpg",
+          "hash": "14901417639978038707"
+        },
+        {
+          "file": "apps/shop/src/assets/img/favicon.png",
+          "hash": "1098483501960798940"
+        },
+        {
+          "file": "apps/shop/src/assets/img/logo.png",
+          "hash": "14072819118976642248"
+        },
+        {
+          "file": "apps/shop/src/assets/img/messages-1.jpg",
+          "hash": "9264822453485421170"
+        },
+        {
+          "file": "apps/shop/src/assets/img/messages-2.jpg",
+          "hash": "13830719361556575534"
+        },
+        {
+          "file": "apps/shop/src/assets/img/messages-3.jpg",
+          "hash": "10878013863686028738"
+        },
+        {
+          "file": "apps/shop/src/assets/img/news-1.jpg",
+          "hash": "7568171703958591464"
+        },
+        {
+          "file": "apps/shop/src/assets/img/news-2.jpg",
+          "hash": "133964275995569196"
+        },
+        {
+          "file": "apps/shop/src/assets/img/news-3.jpg",
+          "hash": "7668726564003902887"
+        },
+        {
+          "file": "apps/shop/src/assets/img/news-4.jpg",
+          "hash": "4243167608099157553"
+        },
+        {
+          "file": "apps/shop/src/assets/img/news-5.jpg",
+          "hash": "3789616559951516326"
+        },
+        {
+          "file": "apps/shop/src/assets/img/not-found.svg",
+          "hash": "4390159037570903404"
+        },
+        {
+          "file": "apps/shop/src/assets/img/product-1.jpg",
+          "hash": "5794109437587657163"
+        },
+        {
+          "file": "apps/shop/src/assets/img/product-2.jpg",
+          "hash": "17444656978116087677"
+        },
+        {
+          "file": "apps/shop/src/assets/img/product-3.jpg",
+          "hash": "9406557728053054918"
+        },
+        {
+          "file": "apps/shop/src/assets/img/product-4.jpg",
+          "hash": "3177057818516552473"
+        },
+        {
+          "file": "apps/shop/src/assets/img/product-5.jpg",
+          "hash": "9842469544702263947"
+        },
+        {
+          "file": "apps/shop/src/assets/img/profile-img.jpg",
+          "hash": "8561034664441066536"
+        },
+        {
+          "file": "apps/shop/src/assets/img/slides-1.jpg",
+          "hash": "14665684704808145279"
+        },
+        {
+          "file": "apps/shop/src/assets/img/slides-2.jpg",
+          "hash": "2964871123918320963"
+        },
+        {
+          "file": "apps/shop/src/assets/img/slides-3.jpg",
+          "hash": "9999106665985061994"
+        },
+        {
+          "file": "apps/shop/src/assets/js/apexcharts.min.js",
+          "hash": "10500158092439237059"
+        },
+        {
+          "file": "apps/shop/src/assets/js/bootstrap.bundle.min.js",
+          "hash": "6828476307853379749"
+        },
+        {
+          "file": "apps/shop/src/assets/js/chart.min.js",
+          "hash": "15186626004404080923"
+        },
+        {
+          "file": "apps/shop/src/assets/js/echarts.min.js",
+          "hash": "9752144309501855238"
+        },
+        {
+          "file": "apps/shop/src/assets/js/main.js",
+          "hash": "11300634934327161872"
+        },
+        {
+          "file": "apps/shop/src/assets/js/quill.min.js",
+          "hash": "12375508550750867495"
+        },
+        {
+          "file": "apps/shop/src/assets/js/simple-datatables.js",
+          "hash": "8737074249184925105"
+        },
+        {
+          "file": "apps/shop/src/assets/js/tinymce.min.js",
+          "hash": "10938643896945517690"
+        },
+        {
+          "file": "apps/shop/src/assets/js/validate.js",
+          "hash": "16098433229457878367"
+        },
+        {
+          "file": "apps/shop/src/environments/configuration.json",
+          "hash": "6846215188689738609"
+        },
+        {
+          "file": "apps/shop/src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "apps/shop/src/environments/environment.ts",
+          "hash": "6555750014575764913"
+        },
+        {
+          "file": "apps/shop/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/shop/src/index.html",
+          "hash": "2410366086371536893"
+        },
+        {
+          "file": "apps/shop/src/main.tsx",
+          "hash": "6189998102981722854",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:bootstrap",
+            "npm:react-redux",
+            "libs",
+            "npm:@fontsource/roboto"
+          ]
+        },
+        {
+          "file": "apps/shop/src/styles.scss",
+          "hash": "11827223589103615267"
+        },
+        {
+          "file": "apps/shop/tsconfig.app.json",
+          "hash": "7451511540283200044"
+        },
+        {
+          "file": "apps/shop/tsconfig.json",
+          "hash": "13909578050934876459"
+        },
+        {
+          "file": "apps/shop/tsconfig.spec.json",
+          "hash": "8859575328606320387"
+        },
+        {
+          "file": "apps/shop/webpack.config.js",
+          "hash": "10310096123488578846",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "shop-e2e": [
+        {
+          "file": "apps/shop-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/shop-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/shop-e2e/project.json",
+          "hash": "14913492684647980736"
+        },
+        {
+          "file": "apps/shop-e2e/src/e2e/app.cy.ts",
+          "hash": "14466764466342219576"
+        },
+        {
+          "file": "apps/shop-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/shop-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/shop-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/shop-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/shop-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
+      "libs": [
+        {
+          "file": "libs/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/.eslintrc.json",
+          "hash": "7388911630545237055"
+        },
+        {
+          "file": "libs/README.md",
+          "hash": "15082991482347749790"
+        },
+        {
+          "file": "libs/jest.config.ts",
+          "hash": "4520564294016616184"
+        },
+        {
+          "file": "libs/project.json",
+          "hash": "16109656761821705562"
+        },
+        {
+          "file": "libs/src/index.ts",
+          "hash": "9158828087052709950"
+        },
+        {
+          "file": "libs/src/lib/libs.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/src/lib/libs.spec.tsx",
+          "hash": "14214510374338428099",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/src/lib/libs.tsx",
+          "hash": "3674178158050328075"
+        },
+        {
+          "file": "libs/src/lib/shared/components/app-button/app-button.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/src/lib/shared/components/app-button/app-button.spec.tsx",
+          "hash": "5497065635901111833",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/components/app-button/app-button.tsx",
+          "hash": "13672490109572693517",
+          "deps": [
+            "npm:react",
+            "npm:@mui/lab",
+            "npm:@mui/icons-material"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/components/material-table/material-table.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/src/lib/shared/components/material-table/material-table.spec.tsx",
+          "hash": "16152960122587938254",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/components/material-table/material-table.tsx",
+          "hash": "18109702224471463480",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/components/text-field/text-field.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/src/lib/shared/components/text-field/text-field.spec.tsx",
+          "hash": "16721923326137914320",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/components/text-field/text-field.tsx",
+          "hash": "9593121390739274035",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:@mui/icons-material/Error"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/environments/environment.ts",
+          "hash": "16321359934381261182"
+        },
+        {
+          "file": "libs/src/lib/shared/functions/auth.ts",
+          "hash": "9093461222199181017",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:react",
+            "npm:rxjs",
+            "npm:js-cookie"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/services/http.service.ts",
+          "hash": "16487509384016443799",
+          "deps": [
+            "npm:axios",
+            "npm:react-toastify"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/store/hooks/auth-hooks.ts",
+          "hash": "14580039509511868826",
+          "deps": [
+            "npm:react-redux"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/store/index-store.ts",
+          "hash": "3411657004300041107",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/store/slice/auth-slice.ts",
+          "hash": "7221602798499326939",
+          "deps": [
+            "npm:@reduxjs/toolkit",
+            "npm:js-cookie"
+          ]
+        },
+        {
+          "file": "libs/src/lib/shared/store/slice/station-slice.ts",
+          "hash": "17453644622977788328",
+          "deps": [
+            "npm:@reduxjs/toolkit"
+          ]
+        },
+        {
+          "file": "libs/tsconfig.json",
+          "hash": "6768434952726690940"
+        },
+        {
+          "file": "libs/tsconfig.lib.json",
+          "hash": "16536883993834092355"
+        },
+        {
+          "file": "libs/tsconfig.spec.json",
+          "hash": "13369031804221838106"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4400/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mvendor.css[39m[22m 238 KiB [1m[32mvendor.js[39m[22m 2.49 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 118 KiB 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 89.8 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e5ebaea44c36cc1d)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.e5ebaea44c36cc1d.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e5ebaea44c36cc1d.hot-update.js[39m[22m (main) 89.8 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e5ebaea44c36cc1d.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7c76ce1c2e734dc)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.d7c76ce1c2e734dc.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d7c76ce1c2e734dc.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d7c76ce1c2e734dc.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9a149ac79d922136)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.9a149ac79d922136.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.9a149ac79d922136.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.9a149ac79d922136.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ac6b624def12a0b6)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.ac6b624def12a0b6.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.ac6b624def12a0b6.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.ac6b624def12a0b6.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24982f2dafa543bb)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.24982f2dafa543bb.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.24982f2dafa543bb.hot-update.js[39m[22m (main) 89.8 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.24982f2dafa543bb.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52aad3828da6041f)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.52aad3828da6041f.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.52aad3828da6041f.hot-update.js[39m[22m (main) 89.8 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.52aad3828da6041f.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3cbdc715a6d3fc1c)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.3cbdc715a6d3fc1c.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3cbdc715a6d3fc1c.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3cbdc715a6d3fc1c.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80b9e0d2fd29f5af)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.80b9e0d2fd29f5af.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.80b9e0d2fd29f5af.hot-update.js[39m[22m (main) 89.8 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.80b9e0d2fd29f5af.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (40494409448b8221)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.40494409448b8221.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.40494409448b8221.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.40494409448b8221.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (106e64d5bc4d4405)
+Found [31m[1m2 errors[22m[39m in 193 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.106e64d5bc4d4405.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.106e64d5bc4d4405.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.106e64d5bc4d4405.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d82fd895074c4758)
+Found [31m[1m1 error[22m[39m in 127 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.d82fd895074c4758.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.d82fd895074c4758.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.d82fd895074c4758.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4bb719fa146f6d61)
+Found [31m[1m1 error[22m[39m in 92 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.89 MiB (4.17 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 458 KiB (572 KiB) = [1m[32mruntime.js[39m[22m 52.5 KiB [1m[32mruntime.4bb719fa146f6d61.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.4bb719fa146f6d61.hot-update.js[39m[22m (main) 89.7 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.4bb719fa146f6d61.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 390 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.44 MiB (javascript) 238 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ad16e581e4ac4026)
+[32mNo errors found.[39m

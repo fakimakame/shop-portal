@@ -1,0 +1,613 @@
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4400/[22m
+
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9f339da75e021e5)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9f339da75e021e5)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9f339da75e021e5)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9f339da75e021e5)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.68 MiB (5.57 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.a9f339da75e021e5.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a9f339da75e021e5.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m, [1m[32mvendor.a9f339da75e021e5.hot-update.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1161640b82ebc987)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1161640b82ebc987)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1161640b82ebc987)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mvendor.css[39m[22m 248 KiB [1m[32mvendor.js[39m[22m 3.1 MiB [1m[32mmain.css[39m[22m 327 bytes [1m[32mmain.js[39m[22m 147 KiB 61 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (570 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1161640b82ebc987)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.1161640b82ebc987.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1161640b82ebc987.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1161640b82ebc987.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e5a5486819e667cd)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.e5a5486819e667cd.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.e5a5486819e667cd.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.e5a5486819e667cd.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2a07f6e5e64576ff)
+Found [31m[1m1 error[22m[39m in 145 ms.
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected keyword 'export'. (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.checkReservedWord (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/expression.ts:2811:12)
+    at TypeScriptParserMixin.checkReservedWord (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2645:15)
+    at TypeScriptParserMixin.parseIdentifierName (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/expression.ts:2786:12)
+    at TypeScriptParserMixin.parseIdentifier (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/expression.ts:2751:23)
+    at TypeScriptParserMixin.parseImportSpecifierLocal (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3132:28)
+    at TypeScriptParserMixin.maybeParseDefaultImportSpecifier (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3324:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3081:29)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (9d14ff95b4787243)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCo[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (19bf9a9730d7013c)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCook[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (7c8a30d83409c58d)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCooke[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (da94c61756e5802f)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCookei[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (998e77cfb914f9e5)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCook[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (7c8a30d83409c58d)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token, expected "from" (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCookie[39m[0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.expectContextual (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/util.ts:107:12)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3098:10)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (0f40b26f82d0c409)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 104 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/components/header/header.tsx[39m[22m [1m[32m22:4-14[39m[22m
+[1mexport 'clearToken' (imported as 'clearToken') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m15:2-20[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src/app/pages/layout/layout.tsx[39m[22m [1m[32m46:10-28[39m[22m
+[1mexport 'useCheckAuthLoader' (imported as 'useCheckAuthLoader') was [1m[31mnot found[39m[22m[1m in '@shop-portal/libs' (possible exports: [1m[32mAppButton, Libs, MaterialTable, TextField, api, environment, loginThunk, onLogin, onLogout, store, useAuthDispatch, useAuthSelector, useLogin[39m[22m[1m)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../libs/src/lib/shared/functions/auth.ts[39m[22m
+Module build failed (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: /Users/faki/Documents/shop_project/shop-portal/libs/src/lib/shared/functions/auth.ts: Unexpected token (7:0)
+
+[0m [90m  5 |[39m [36mimport[39m [33mCookie[39m [36mfrom[39m [0m
+[0m [90m  6 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mexport[39m [36mfunction[39m authToken(){[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m     [0m
+[0m [90m 10 |[39m     [36mreturn[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m!==[39m [36mnull[39m [33m?[39m localStorage[33m.[39mgetItem([32m'access_token'[39m) [33m:[39m [36mnull[39m[0m
+    at toParseError (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at TypeScriptParserMixin.raise (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at TypeScriptParserMixin.unexpected (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/tokenizer/index.ts:1527:16)
+    at TypeScriptParserMixin.parseImportSource (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3118:38)
+    at TypeScriptParserMixin.parseImportSourceAndAttributes (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3108:24)
+    at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3100:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:3066:17)
+    at TypeScriptParserMixin.parseImport (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2731:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:578:25)
+    at TypeScriptParserMixin.parseStatementContent (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:2878:20)
+    at TypeScriptParserMixin.parseStatementLike (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:354:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1385:16)
+    at TypeScriptParserMixin.parseBlockBody (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at TypeScriptParserMixin.parseProgram (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:213:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/statement.ts:195:25)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at TypeScriptParserMixin.parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/plugins/typescript/index.ts:3988:20)
+    at parse (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/parser/src/index.ts:66:38)
+    at parser (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/faki/Documents/shop_project/shop-portal/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:261:32)
+    at /Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/faki/Documents/shop_project/shop-portal/node_modules/gensync/index.js:223:11)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m3 warnings[39m[22m (53f7ff7756dd0572)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a07f6e5e64576ff.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a07f6e5e64576ff.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (75ddb7d236962521)
+Found [31m[1m1 error[22m[39m in 153 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.75ddb7d236962521.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.75ddb7d236962521.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.75ddb7d236962521.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52e0ba95d0602f82)
+Found [31m[1m1 error[22m[39m in 144 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.52e0ba95d0602f82.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.52e0ba95d0602f82.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.52e0ba95d0602f82.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (108d172a29453bca)
+Found [31m[1m1 error[22m[39m in 171 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.108d172a29453bca.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.108d172a29453bca.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.108d172a29453bca.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f006221f7b9e5f5e)
+Found [31m[1m1 error[22m[39m in 156 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.f006221f7b9e5f5e.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.f006221f7b9e5f5e.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.f006221f7b9e5f5e.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (39b9c60e9639ef64)
+Found [31m[1m1 error[22m[39m in 203 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 3.54 MiB (5.39 MiB) = 7 assets 63 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (571 KiB) = [1m[32mruntime.js[39m[22m 52.3 KiB [1m[32mruntime.39b9c60e9639ef64.hot-update.js[39m[22m 343 bytes [1m[32mstyles.css[39m[22m 177 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.39b9c60e9639ef64.hot-update.js[39m[22m (main) 106 KiB (javascript) 288 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.39b9c60e9639ef64.hot-update.js[39m[22m (runtime) 35.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 138 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 3 MiB (javascript) 248 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9a7965a14d0101e1)
+Found [31m[1m1 error[22m[39m in 138 ms.

@@ -7,3 +7,4 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
   // e.g. `config.plugins.push(new MyPlugin())`
   return config;
 });
+

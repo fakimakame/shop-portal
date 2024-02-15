@@ -1,17 +1,15 @@
-import { AppButton, TextField } from '@shop-portal/libs';
+import { AppButton, TextFieldInput, loginThunk, useAuthDispatch, useAuthSelector } from '@shop-portal/libs';
 import { useFormik } from 'formik';
 import React from 'react';
 import { useState } from 'react';
 import * as Yup from 'yup'
-// eslint-disable-next-line @nx/enforce-module-boundaries
-import LoginService from 'apps/shop/src/app/services/login.service';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-export interface LoginProps {
-}
-
-export function Login (props : LoginProps) {
-
+import {  useNavigate } from 'react-router-dom';
+export function Login () {
+  const { isLoading }=useAuthSelector((state) => state.login)
+  const navigate = useNavigate()
+  const dispatch= useAuthDispatch()
   const validationSchema=Yup.object({
     username:Yup.string().required().email(),
     password:Yup.string().required()
@@ -24,10 +22,12 @@ export function Login (props : LoginProps) {
     },
     validationSchema:validationSchema,
     async onSubmit(values){
-      const loginService=new LoginService()
-      const  {data }= await loginService.getById(values)
-
-      console.log('the form is submitted',data)
+        const {payload} = await dispatch(loginThunk(values))
+        if(payload.access_token){
+          navigate('/shop')
+        }
+        //return redirect('/shop')
+    //  }
     }
   })
 
@@ -52,7 +52,7 @@ export function Login (props : LoginProps) {
     
   }
   const buttonStyles={
-    color:'red',
+    //color:'red',
     float:'right'
   }
     
@@ -64,15 +64,15 @@ export function Login (props : LoginProps) {
           <div className="offset-md-3 col-md-5 col-sm-12">
           <h1>Login Form</h1>
           <form onSubmit={formik.handleSubmit}>
-          <TextField 
+          <TextFieldInput 
             label="username" 
             name="username"
             errors={formik.errors.username}
             handleChange={formik.handleChange}
             handleBlur={formik.handleBlur}
             value={formik.values.username}
-            ></TextField>
-          <TextField 
+            />
+          <TextFieldInput 
           type="password" 
           label="Password" 
           name="password"
@@ -80,8 +80,11 @@ export function Login (props : LoginProps) {
           value={formik.values.password}
           handleChange={formik.handleChange}
           handleBlur={formik.handleBlur}
-          ></TextField>
-          <AppButton styles={buttonStyles} name='Login' class='btn-success'></AppButton>
+          />
+          <AppButton status={isLoading} 
+          styles={buttonStyles} 
+          name='Login' 
+          classes='mt-1'/>
           </form>
           </div>
         </div>
