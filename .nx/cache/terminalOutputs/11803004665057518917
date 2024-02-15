@@ -1,9 +1,0 @@
-[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Unable to load tsconfig-paths, workspace libraries may be inaccessible.[39m[22m
-[1m[33m  - To fix this, install tsconfig-paths with npm/yarn/pnpm[39m[22m
-[1m[33m[36m>[39m[33m [7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
-[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
-
- [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mproxy is not a function[39m
-
-   Pass --verbose to see the stacktrace.
-
