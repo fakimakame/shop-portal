@@ -39,3 +39,4 @@ daemon.log
 .DS_Store
 Thumbs.db
 .nx/cache/d/daemon.log
+.nx/
