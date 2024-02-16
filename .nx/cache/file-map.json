@@ -99,10 +99,6 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": ".nx/cache/file-map.json",
-        "hash": "7610711204313388327"
-      },
-      {
         "file": ".prettierignore",
         "hash": "8865097869854018350"
       },
@@ -159,16 +155,20 @@
         "hash": "11824328872675887782"
       },
       {
-        "file": ".nx/cache/project-graph.json",
-        "hash": "5447259113810240348"
-      },
-      {
         "file": ".nx/cache/terminalOutputs/15762897294806872705",
         "hash": "4958401940125773371"
       },
       {
         "file": ".nx/cache/run.json",
         "hash": "10486876653483235889"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "5447259113810240348"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "1268820106268542535"
       }
     ],
     "projectFileMap": {
