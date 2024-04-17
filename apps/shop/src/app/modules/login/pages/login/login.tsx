@@ -1,6 +1,6 @@
 import { AppButton, TextFieldInput, loginThunk, useAuthDispatch, useAuthSelector } from '@shop-portal/libs';
 import { useFormik } from 'formik';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import * as Yup from 'yup'
 import { ToastContainer } from 'react-toastify';
@@ -10,6 +10,11 @@ export function Login () {
   const { isLoading }=useAuthSelector((state) => state.login)
   const navigate = useNavigate()
   const dispatch= useAuthDispatch()
+  const [formData,setFormData] = useState({
+    username:'',
+    password:''
+  }
+  )
   const validationSchema=Yup.object({
     username:Yup.string().required().email(),
     password:Yup.string().required()
@@ -23,19 +28,11 @@ export function Login () {
     validationSchema:validationSchema,
     async onSubmit(values){
         const {payload} = await dispatch(loginThunk(values))
-        if(payload.access_token){
+        if(payload.token){
           navigate('/shop')
         }
-        //return redirect('/shop')
-    //  }
     }
   })
-
-  const [formData,setFormData]= useState({
-    username:'',
-    password:''
-  }
-  )
 
   const handleChange = (e:React.ChangeEvent<HTMLInputElement>)=>{
     const {name,value} =e.target

@@ -14,6 +14,7 @@ export interface TextFieldProps {
   handleBlur?:any,
   errors?:string,
   id?:string,
+  disable?:boolean
 }
 
 export function TextFieldInput(props:TextFieldProps) {
@@ -22,7 +23,6 @@ export function TextFieldInput(props:TextFieldProps) {
     <React.Fragment>
     <div className='form-group'>
     <TextField 
-    id="outlined-basic" 
     className='w-100 mb-1'
     label={props.label} 
     variant="outlined" 
@@ -31,31 +31,16 @@ export function TextFieldInput(props:TextFieldProps) {
     type={props.type}
     onChange={props.handleChange}
     onBlur={props.handleBlur}
+    disabled={props.disable ? props.disable : false}
+    size='small'
     />
     </div>
     {
       props.errors &&
-      <Alert className='mb-1' severity='error' 
+      <Alert style={{height:"35px",padding:"1px"}} className='mb-1' severity='error' 
       >{props.errors}</Alert>  
     }
  </React.Fragment>
-//     <React.Fragment>
-//     <div className='form-group'>
-//       <label>{props.label}</label>
-//       <input
-//        type={props.type} 
-//        name={props.name} 
-//        value={props.value} 
-//        className='form-control'
-//        onChange={props.handleChange}
-//        onBlur={props.handleBlur}
-//        />
-//     </div>
-//     {props.errors &&
-//     <div className='alert alert-danger'
-// >{props.errors}</div>  
-// }
-// </React.Fragment>
 );
 }
 

@@ -22,8 +22,12 @@ export default class LoginService {
     
      logout = () =>{
         const navigate = useNavigate()
-        localStorage.removeItem('access_token')
+        localStorage.removeItem('token')
         navigate('/shop')
+     }
+     async getUserData(){
+        //return await http.get(`${api.url}/auth/data`)
+        console.log('this is my function')
      }
 
 }

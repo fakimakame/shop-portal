@@ -13,6 +13,7 @@ export function checkAuthLoader(){
     const token=authToken()
 
     if(!token){
+
         return redirect('/')
     }
 
@@ -20,7 +21,7 @@ export function checkAuthLoader(){
 }
 
 export function useCheckAuthLoader(){
-    const token = useAuthSelector((state) => state.login.access_token) 
+    const token = Cookies.get('access_token')//useAuthSelector((state) => state.login.access_token) 
     const navigate =useNavigate()
 
     useEffect(() => {
@@ -33,6 +34,7 @@ export function useCheckAuthLoader(){
 
 export function clearToken(){
     Cookies.remove('access_token')
+    
  }
 
 //this function for checking either token is expired

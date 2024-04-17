@@ -2,6 +2,7 @@ import { AppButton, TextFieldInput, saveStation, useAuthDispatch, useAuthSelecto
 import styles from './add-station.module.scss';
 import * as Yup from 'yup'
 import { useFormik } from 'formik';
+import { useEffect } from 'react';
 
 /* eslint-disable-next-line */
 export interface AddStationProps {}
@@ -17,11 +18,12 @@ export function AddStation(props: AddStationProps) {
   })
   const stationForm= useFormik({
     initialValues:{
-      stationName:''
+      stationName:'',
+      location:''
     },
     validationSchema:validationSchema,
     async  onSubmit(values){
-      const { payload } = await dispatch(saveStation(values))
+       await dispatch(saveStation(values))
     }
   })
   return (
@@ -34,6 +36,12 @@ export function AddStation(props: AddStationProps) {
             handleChange={stationForm.handleChange}
             handleBlur={stationForm.handleBlur}
            label='Station name'/>
+           <TextFieldInput name='location'
+          value={stationForm.values.location}
+          errors={stationForm.errors.location}
+            handleChange={stationForm.handleChange}
+            handleBlur={stationForm.handleBlur}
+           label='Location'/>
           <AppButton status={isLoading} 
           styles={buttonStyles} 
           name='Submit' 

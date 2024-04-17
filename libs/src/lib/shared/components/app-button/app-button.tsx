@@ -2,16 +2,18 @@
 import * as React from 'react';
 import LoadingButton from '@mui/lab/LoadingButton';
 import SaveIcon from '@mui/icons-material/Save';
+import { types } from 'util';
 /* eslint-disable-next-line */
 export interface AppButtonProps {
-  name:string,
+  name?:string,
   classes?:string,
   status:boolean,
   styles?:any,
+  handleClick?:any,
   colors?:"info" | "inherit" | "primary" | "secondary" | "success" | "error" | "warning",
 }
 
-export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,classes,colors='info'}) => {
+export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,classes,colors='info',handleClick}) => {
   return (
     // <Button 
     // type='submit' 
@@ -23,6 +25,7 @@ export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,cl
     size="small"
     color={colors}
     type="submit"
+    onClick={handleClick}
     loading={status}
     className={classes}
     loadingPosition="start"

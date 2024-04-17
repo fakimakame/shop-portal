@@ -1,7 +1,7 @@
 
 import axios from "axios";
 import { toast } from "react-toastify";
-import { authToken } from "../functions/auth";
+import { authToken, clearToken, isTokenExpired } from "../functions/auth";
 //export function useLogin(){
    // const token = useAuthSelector((state) => state.login.access_token)//authToken()
    const token=authToken()
@@ -30,14 +30,13 @@ import { authToken } from "../functions/auth";
         //     }
         //    )
         axios.interceptors.response.use(null, errors =>{
-            if(errors){
+            const status= errors.response.data
+            if(status){
                 const { data }=errors.response
-                if(data.statusCode ===  402 )
-                {
                    toast.error(data.message)
-                }
             }
             else{
+                console.log("this is working block");
                 toast.success('success')
             }
         })

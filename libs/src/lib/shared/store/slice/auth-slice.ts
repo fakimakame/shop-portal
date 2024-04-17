@@ -14,9 +14,10 @@ const initialState={
 }
 
 export const loginThunk = createAsyncThunk('user/login', async (data:{username :string , password : string}) => {
-    const response = await http.post(`${api.url}/auth/login`,data)
+    const response = await http.post(`${api.java_url}/auth/login`,data)
     return response.data
 })
+
 const loginSlice= createSlice({
     name:'login',
     initialState,
@@ -35,8 +36,8 @@ const loginSlice= createSlice({
         })
         .addCase(loginThunk.fulfilled,(state,action) => {
                 state.isLoading=false
-                state.access_token= action.payload.access_token
-                Cookies.set('access_token',action.payload.access_token)
+                state.access_token= action.payload.token
+                Cookies.set('access_token',action.payload.token)
             
                 
         })

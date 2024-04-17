@@ -5,6 +5,7 @@ export const environment = {
   };
   
   export const api = {
-    url:"http://localhost:3100"
+    url:"http://localhost:3100",
+    java_url:"http://localhost:4200/api/v1"
   }
   
