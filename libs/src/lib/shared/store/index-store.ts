@@ -5,7 +5,12 @@ import productReducer from './slice/product-slice'
 import userReducer from './slice/user-slice'
 import roleReducer from './slice/role-slice'
 import storeReducer from './slice/store.slice'
-
+import purchaseReducer from './slice/purchase-slice'
+import shiftReducer from './slice/shift.slice'
+import sampleReducer from './slice/sample-slice'
+import categoryReducer from './slice/category-slice'
+import sizeReducer from './slice/size-slice'
+import categorySizeReducer from './slice/category-size-slice'
 export const store = configureStore({
     reducer:{
         login:loginReducer,
@@ -13,7 +18,13 @@ export const store = configureStore({
         product:productReducer,
         user:userReducer,
         role:roleReducer,
-        store:storeReducer
+        store:storeReducer,
+        purchase:purchaseReducer,
+        shift:shiftReducer,
+        sample:sampleReducer,
+        category:categoryReducer,
+        size:sizeReducer,
+        categorySize:categorySizeReducer,
     }
 })
 

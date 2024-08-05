@@ -30,13 +30,18 @@ const columns : Column[] = [
   {
     accessorKey: 'price',
     header: 'Price',
-    //id:'age',
+    Cell: ({ cell }:any) => (cell.getValue().toLocaleString?.('en-US', {
+      style: 'currency',
+      currency: 'Tsh',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    })),
     enableHiding: false, //disable a feature for this column
   },
   {
     accessorKey: 'availableQuantity',
     header: 'Available Qty',
-    //id:'age',
+    Cell: ({ cell }:any) => (cell.getValue().toLocaleString()),// this is for format number
     enableHiding: false, //disable a feature for this column
   },
   {
@@ -49,6 +54,20 @@ const columns : Column[] = [
 ]
 
 const actionButtons : ActionButton[] = [
+  {
+    id: 'add',
+    label: 'Add',
+    icon: 'visibility',
+    title: 'add Product',
+    action: 'onAdd',
+  },
+  {
+    id: 'update',
+    label: 'Update Price',
+    icon: 'visibility',
+    title: 'update price',
+    action: 'onUpdatePrice',
+  },
   {
     id: 'delete',
     label: 'Delete',
@@ -64,6 +83,8 @@ const dispatch = useAuthDispatch()
 const storeStore = useAuthSelector(state => state.store)
 const [stationId,setStationId] = useState(0)
 const [dialogStatus,setDialogStatus]=useState(false)
+const [isPrice,setIsPrice] = useState(false)
+const [extraData,setExtraData] = useState(null)
 useEffect(() => {
   if(stationStore.station.length === 0){
     dispatch(viewStation())
@@ -74,8 +95,6 @@ useEffect(() => {
   return () => {
     // Component unmount logic
     clearData()
-
-    console.log("Component unmounted");
 }
 
 },[])
@@ -95,6 +114,8 @@ useEffect(() => {
   const clearData = ()=>{
     stationForm.resetForm()
     setStationId(0)
+    setExtraData(null)
+    setIsPrice(false)
     dispatch(clearStoreState())
   }
    const handleChange = (value:number) =>{
@@ -105,13 +126,19 @@ useEffect(() => {
   const handleClick = (column:any,data:any) =>{
     const action = column.action
     switch(action){
+      case 'onAdd' :
+        onAdd(data)
+        break
+      case 'onUpdatePrice' :
+        onUpdatePrice(data)
+        break
       case 'onDelete' :
         //onDelete(data)
         break
   }
 }
 const openDialog = () =>{
-  if(stationId !== 0){
+  if(stationId !== 0 || extraData !== null){
   setDialogStatus(true)
   }
   else {
@@ -121,7 +148,19 @@ const openDialog = () =>{
 const  onDialogClosed = () =>{
   //setStationId(0)
   setDialogStatus(false)
+  setExtraData(null)
+  setIsPrice(false)
   return null
+}
+const onAdd = (myData:any) =>{
+  setExtraData(myData)
+  setIsPrice(false)
+  openDialog()
+}
+const onUpdatePrice = (myData:any)=>{
+  setExtraData(myData)
+  setIsPrice(true)
+  openDialog()
 }
   return (
     <div className={styles['container']}>
@@ -129,6 +168,8 @@ const  onDialogClosed = () =>{
         <div className='row'>
           <div className='col-md-5 col-sm-12'>
           <InputSelect name='stationId'
+                valueLable={"id"}
+                selectOptionLabel={"stationName"}
                 selectionValue={stationStore.station}
                 value={stationForm.values.stationId}
                 errors={stationForm.errors.stationId}
@@ -152,7 +193,7 @@ const  onDialogClosed = () =>{
           customButtonName={'Add Store'}
           customButtonClick={openDialog}
     />
-    <AddStore changeStatus={onDialogClosed} data={stationId} status={dialogStatus}/>
+    <AddStore changeStatus={onDialogClosed} isPrice ={isPrice} extraData={extraData}  data={stationId} status={dialogStatus}/>
         </div>
       </div>
     </div>

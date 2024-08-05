@@ -14,6 +14,8 @@ export interface InputSelectProps {
   errors?:string,
   id?:string,
   selectionValue?:any,
+  valueLable?:any,
+  selectOptionLabel?:any
 }
 
 export function InputSelect(props: InputSelectProps) {
@@ -41,7 +43,7 @@ export function InputSelect(props: InputSelectProps) {
         </MenuItem>
         {
           props.selectionValue.map((element:any) => (
-            <MenuItem  value={element.id}>{element.stationName}</MenuItem>
+            <MenuItem  value={element[props.valueLable]}>{element[props.selectOptionLabel]}</MenuItem>
           ))
         }
       </Select>

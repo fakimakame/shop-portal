@@ -14,9 +14,7 @@ export function Layout(){
   
   useEffect(()=>{
     const token=authToken()
-    console.log("this is my token",token);
     if(token){
-      console.log("this token block exist")
       axios.defaults.headers.common['Authorization']=`Bearer ${token}`
    }
   },[])

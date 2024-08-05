@@ -9,11 +9,12 @@ export interface AppButtonProps {
   classes?:string,
   status:boolean,
   styles?:any,
+  disabledStatus?:boolean,
   handleClick?:any,
   colors?:"info" | "inherit" | "primary" | "secondary" | "success" | "error" | "warning",
 }
 
-export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,classes,colors='info',handleClick}) => {
+export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,classes,colors='info',disabledStatus=false,handleClick}) => {
   return (
     // <Button 
     // type='submit' 
@@ -32,6 +33,7 @@ export const AppButton: React.FC<AppButtonProps> = ({name,status=false,styles,cl
     style={styles}
     startIcon={<SaveIcon />}
     variant="contained"
+    disabled={disabledStatus}
   >
     <span>{name}</span>
   </LoadingButton>

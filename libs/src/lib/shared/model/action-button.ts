@@ -18,5 +18,6 @@ export interface Column{
   enableHiding: false,
   accessorFn?:any,
   id?:string,
+  Cell?:any,
 }
   

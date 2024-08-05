@@ -34,6 +34,7 @@ export function useCheckAuthLoader(){
 
 export function clearToken(){
     Cookies.remove('access_token')
+    sessionStorage.removeItem('userInfo')
     
  }
 

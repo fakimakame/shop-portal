@@ -36,10 +36,17 @@ const loginSlice= createSlice({
         })
         .addCase(loginThunk.fulfilled,(state,action) => {
                 state.isLoading=false
-                state.access_token= action.payload.token
-                Cookies.set('access_token',action.payload.token)
-            
-                
+                const{token, ...rest} =action.payload
+                state.access_token = token
+                Cookies.set('access_token',token)
+                const userInfo = {
+                    id:rest.id,
+                    username:rest.username,
+                    fullname:rest.fullname,
+                    roles:rest.roles
+                }
+                const userObj =JSON.stringify(userInfo)
+                sessionStorage.setItem('userInfo',userObj)
         })
         .addCase(loginThunk.rejected,(state) =>{
             state.isLoading=false

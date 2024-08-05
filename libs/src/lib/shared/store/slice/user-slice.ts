@@ -2,8 +2,12 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import http from "../../services/http.service"
 import { api } from '../../environments/environment';
 import {Toast} from "../../functions/toast";
-const initialState={
-   user: [{}],
+export interface userModel{
+    isLoading:boolean,
+    user:any,
+}
+const initialState:userModel={
+   user: [],
    isLoading:false
 }
 export const viewUser = createAsyncThunk('view/users', async() => {

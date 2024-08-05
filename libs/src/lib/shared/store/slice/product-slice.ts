@@ -33,6 +33,19 @@ const productSlice = createSlice({
     initialState:initialState,
     reducers:{
 
+        updateProductState(state,action){
+            //console.log("this is my state",JSON.parse(JSON.stringify(state)),action)
+            const payload =action.payload
+            const index = state.product.findIndex((element:any) => element.id === payload.productId)
+            const currentProduct = state.product[index]
+            const {quantity, ...currentProductOnStringfy} = JSON.parse(JSON.stringify(currentProduct))
+           const newQuantity = parseInt(quantity) + parseInt(payload.quantity)
+           const newUpdatedProduct = {...currentProductOnStringfy,quantity:newQuantity.toString()}
+           state.product.splice(index,1)
+           state.product.splice(index,0,newUpdatedProduct)
+           
+        }
+
     },
     extraReducers (builder) {
         builder.addCase(onViewProduct.pending,(state,action)=>{
@@ -49,9 +62,11 @@ const productSlice = createSlice({
             state.isLoading=true;
         })
         .addCase(onDeleteProduct.fulfilled,(state,action) =>{
-           const myIndex = state.product.findIndex((res:any) =>res.id =action.payload.id )
+           const myIndex = state.product.findIndex((res:any) =>res.id === action.payload.id )
            state.product.splice(myIndex,1)
             state.isLoading=false
+            const { message,payload } = action.payload
+            Toast(message)
         })
         .addCase(addProduct.pending,(state) =>{
             state.isLoading = true
@@ -60,6 +75,9 @@ const productSlice = createSlice({
             const { message,payload } = action.payload
             state.product.push(payload)
             Toast(message)
+            state.isLoading = false
+        })
+        .addCase(addProduct.rejected,state =>{
             state.isLoading = false
         })
         .addCase(findProductByCode.pending, state =>{
@@ -76,5 +94,5 @@ const productSlice = createSlice({
     }
 
 })
-
+export const {updateProductState} = productSlice.actions
 export default productSlice.reducer

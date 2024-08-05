@@ -47,6 +47,7 @@ export interface MaterialTableProps {
   customButtonName?:string
   hasCustomButton?:boolean //used for checking if table require aditional button
   customButtonClick?:any //it used for trigger action when create button clicked
+  isLoading?:boolean;
 }
 export function MaterialTable(props:MaterialTableProps) {
   const hasCustomButton = true;
@@ -96,6 +97,9 @@ const actionFormat={
   rowNumberDisplayMode= {'original'}
   displayColumnDefOptions = {actionFormat}
   positionActionsColumn={'last'}
+  state={
+    {isLoading: props.isLoading ? props.isLoading : false}
+  }
   renderTopToolbarCustomActions={({ table }) =>{
     if(props.hasCustomButton) {
     return <AppButton handleClick={openDialog} status={false} name={props.customButtonName}/>

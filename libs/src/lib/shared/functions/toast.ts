@@ -8,6 +8,8 @@ export const Toast = (message:string,type?:string) =>{
             return toast.info(message)
         case "warning" :
             return toast.warning(message)
+        case "danger" :
+            return toast.error(message)
         default :
             return toast.success(message ? message : "success")
     }
