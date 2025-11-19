@@ -3,7 +3,7 @@
 import  http from '../../../../../libs/src/lib/shared/services/http.service'
 import { api } from '@shop-portal/libs'
 import {  useNavigate } from 'react-router-dom';
-export default class LoginService {
+export default class LoginSeravice {
     //url ='http://localhost:3100/'
     //private url = '/shop-api/';
    async getById(data:any){

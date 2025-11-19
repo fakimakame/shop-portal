@@ -13,6 +13,7 @@ import ShiftAssigment from './modules/station/components/shift-assigment/shift-a
 import OpenShift from './modules/station/components/open-shift/open-shift';
 import SaleSite from './modules/station/components/sale-site/sale-site';
 import Category from './modules/station/components/category/category';
+import Callback from './modules/login/pages/callback/callback';
 
 export function App() {
 
@@ -65,6 +66,10 @@ export function App() {
         {
           path: 'category',
           element: <Category />
+        },
+        {
+          path: 'callback',
+          element: <Callback />
         },
       ]
     }

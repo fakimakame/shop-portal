@@ -34,3 +34,6 @@ export * from './lib/shared/components/product-image-sample/product-image-sample
 export * from './lib/shared/store/slice/category-slice'
 export * from './lib/shared/store/slice/size-slice'
 export * from './lib/shared/store/slice/category-size-slice'
+export * from './lib/shared/services/http.service'
+export * from './lib/shared/functions/format-number'
+export * from './lib/shared/configs/configUserManager'

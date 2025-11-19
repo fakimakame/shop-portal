@@ -1,14 +1,13 @@
-import { useFormik } from 'formik';
-import styles from './store.module.scss';
+
+import styles from './sale-store.module.scss';
 import * as Yup from 'yup'
 import { ActionButton, Column, InputSelect, MaterialTable, Toast, clearStoreState, useAuthDispatch, useAuthSelector, viewStation, viewStore } from '@shop-portal/libs';
 import { useEffect, useState } from 'react';
 import AddStore from '../add-store/add-store';
 import StoreSample from '../store-sample/store-sample';
-// eslint-disable-next-line @nx/enforce-module-boundaries
-//import storeReducer from '../../../../../../../../libs/src/lib/shared/store/slice/store.slice'
+import { useFormik } from 'formik';
 /* eslint-disable-next-line */
-export interface StoreProps { }
+export interface SaleStoreProps {}
 const columns: Column[] = [
   {
     accessorKey: 'productCode',
@@ -55,37 +54,16 @@ const columns: Column[] = [
 ]
 
 const actionButtons: ActionButton[] = [
-  {
-    id: 'add',
-    label: 'Add',
-    icon: 'visibility',
-    title: 'add Product',
-    action: 'onAdd',
-  },
-  {
-    id: 'update',
-    label: 'Update Price',
-    icon: 'visibility',
-    title: 'update price',
-    action: 'onUpdatePrice',
-  },
+
   {
     id: 'sample',
-    label: 'Store Sample',
+    label: 'Sample',
     icon: 'visibility',
-    title: 'Store Sample',
+    title: 'Sample',
     action: 'onStoreSample',
   },
-  {
-    id: 'delete',
-    label: 'Delete',
-    icon: 'visibility',
-    title: 'Delete station',
-    action: 'onDelete',
-  },
 ]
-export function Store(props: StoreProps) {
-
+export function SaleStore(props: SaleStoreProps) {
   const stationStore = useAuthSelector(state => state.station)
   const dispatch = useAuthDispatch()
   const storeStore = useAuthSelector(state => state.store)
@@ -170,7 +148,6 @@ export function Store(props: StoreProps) {
     setExtraData(null)
     setExistingData({})
     setIsPrice(false)
-    dispatch(viewStation())
     return null
   }
   const onAdd = (myData: any) => {
@@ -210,16 +187,18 @@ export function Store(props: StoreProps) {
             onActionClick={handleClick}
             hasActionButton={true}
             hasSerialNo={true}
-            hasCustomButton={true}
+            hasCustomButton={false
+              
+            }
             customButtonName={'Add Store'}
             customButtonClick={openDialog}
           />
           <AddStore changeStatus={onDialogClosed} isPrice={isPrice} extraData={extraData} data={stationId} status={dialogStatus} />
-          <StoreSample isForSale = {false} data={existingData} changeStatus={onDialogClosed} status={dialogStatusForSample} />
+          <StoreSample isForSale = {true} data={existingData} changeStatus={onDialogClosed} status={dialogStatusForSample} />
         </div>
       </div>
     </div>
   );
 }
 
-export default Store;
+export default SaleStore;

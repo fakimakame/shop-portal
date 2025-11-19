@@ -1,20 +1,23 @@
+import styles from './store-sample.module.scss';
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import styles from './product-sample.module.scss';
-import { AppBar, Button, Dialog, DialogActions, DialogContent, DialogTitle, IconButton, Toolbar, Typography } from '@mui/material';
-import { AppButton, ProductImageSample, useAuthDispatch, useAuthSelector, viewSample, ActionButton } from '@shop-portal/libs';
+import { AppBar, Button, Dialog, DialogContent, DialogTitle, IconButton, Toolbar, Typography } from '@mui/material';
+import { ProductImageSample, useAuthDispatch, useAuthSelector, viewSample } from '@shop-portal/libs';
 import { useEffect, useState } from 'react';
-import { sample } from 'rxjs';
 import CloseIcon from '@mui/icons-material/Close';
 import AddSample from '../add-sample/add-sample';
 import SampleDetail from '../sample-detail/sample-detail';
+import StoreSampleDetail from '../store-sample-detail/store-sample-detail';
+import SaleSampleDetail from '../sale-sample-detail/sale-sample-detail';
 /* eslint-disable-next-line */
-export interface ProductSampleProps {
+export interface StoreSampleProps {
   status: boolean,
   changeStatus?: any,
-  data: any
+  data: any,
+  isForSale?:boolean
 }
 
-export function ProductSample(props: ProductSampleProps) {
+export function StoreSample(props: StoreSampleProps) {
   const sampleSelector = useAuthSelector(state => state.sample)
   const dispatch = useAuthDispatch()
   const [open, setOpen] = useState(false)
@@ -49,11 +52,11 @@ export function ProductSample(props: ProductSampleProps) {
   }
   useEffect(() => {
     if (props.status) {
-      const availableSample = sampleSelector.sample.filter((item: any) => item.productId === props.data.id)
+      const availableSample = sampleSelector.sample.filter((item: any) => item.productId === props.data.proId)
 
       handleOpen()
       if (availableSample.length === 0 && !alreadyDispatched) {
-        dispatch(viewSample(props.data.id))
+        dispatch(viewSample(props.data.proId))
         setAlreadyDispatched(true)
       }
       setSample(availableSample)
@@ -94,9 +97,9 @@ export function ProductSample(props: ProductSampleProps) {
             <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
 
             </Typography>
-            <Button autoFocus color="inherit" onClick={openDialog}>
+            {/* <Button autoFocus color="inherit" onClick={openDialog}>
               Add Sample
-            </Button>
+            </Button> */}
           </Toolbar>
         </AppBar>
         <DialogTitle>
@@ -132,10 +135,21 @@ export function ProductSample(props: ProductSampleProps) {
         <AppButton handleClick={productForm.handleSubmit} status={false} name={'Save'} />
       </DialogActions> */}
       </Dialog >
-      <AddSample changeStatus={closeAddSampleDialog} status={openDialogStatus} existingData={props.data} />
-      <SampleDetail currentSample={currentSample} changeStatus={closeDetailSampleDialog} status={openDetailDialogStatus} existingData={props.data} />
+      {
+        props.isForSale ? (
+         <SaleSampleDetail currentSample={currentSample} changeStatus={closeDetailSampleDialog} status={openDetailDialogStatus} existingData={props.data}  />
+        )
+        :
+        (
+          <>
+          <AddSample changeStatus={closeAddSampleDialog} status={openDialogStatus} existingData={props.data} />
+          <StoreSampleDetail currentSample={currentSample} changeStatus={closeDetailSampleDialog} status={openDetailDialogStatus} existingData={props.data} />
+          </>
+        )
+    }
     </>
   );
 }
 
-export default ProductSample;
+export default StoreSample;
+
